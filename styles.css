@@ -1,33 +1,38 @@
-/*  your css code here. If applicable */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-.soundboard {
+#buttons {
+    min-height: 180px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px;
-    padding: 30px;
-    background: linear-gradient(135deg, #9b59b6, #6c5ce7);
+    gap: 20px;
+    background: linear-gradient(120deg, #6034c5, #d7a0ed);
 }
 
-.soundboard button {
-    padding: 15px 20px;
+.btn,
+.stop {
+    padding: 15px 25px;
     border: none;
-    border-radius: 5px;
-    background-color: #483d8b;
+    border-radius: 3px;
     color: white;
     cursor: pointer;
     font-size: 14px;
 }
 
-.soundboard button:hover {
-    background-color: #302060;
+.btn {
+    background-color: #382078;
 }
 
-.soundboard button:active {
-    transform: scale(0.95);
+.stop {
+    background-color: #9c85a5;
+}
+
+.btn:hover,
+.stop:hover {
+    opacity: 0.8;
 }
