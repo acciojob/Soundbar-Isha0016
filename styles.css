@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.soundboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 30px;
+    background: linear-gradient(135deg, #9b59b6, #6c5ce7);
+}
+
+.soundboard button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #483d8b;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.soundboard button:hover {
+    background-color: #302060;
+}
+
+.soundboard button:active {
+    transform: scale(0.95);
+}
